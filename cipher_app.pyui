@@ -8,15 +8,18 @@
         "frame" : "{{6, 55}, {628, 80}}",
         "class" : "Label",
         "attributes" : {
-          "flex" : "W",
-          "font_name" : "Menlo-Regular",
-          "frame" : "{{245, 224}, {150, 32}}",
           "uuid" : "30C23CCF-65C5-444F-9297-DC1DE1013AC9",
-          "class" : "Label",
+          "font_size" : 14,
+          "corner_radius" : 0,
+          "frame" : "{{245, 224}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
           "alignment" : "left",
           "text" : "",
-          "font_size" : 14,
-          "name" : "ciphertext_label"
+          "font_name" : "Menlo-Regular",
+          "class" : "Label",
+          "name" : "ciphertext_label",
+          "flex" : "W"
         },
         "selected" : false
       },
@@ -29,7 +32,10 @@
         "attributes" : {
           "uuid" : "C0766809-1C3F-48E0-B95C-FD2C4E331EF7",
           "flex" : "W",
+          "corner_radius" : 0,
           "frame" : "{{220, 224}, {200, 32}}",
+          "border_color" : "RGBA(0.716981,0.716981,0.716981,1.000000)",
+          "border_width" : 2,
           "action" : "cipher_text_entered",
           "alignment" : "left",
           "autocorrection_type" : "default",
@@ -50,14 +56,14 @@
         "class" : "TextField",
         "attributes" : {
           "action" : "",
-          "font_size" : 17,
+          "name" : "cipher_textfield",
           "frame" : "{{220, 224}, {200, 32}}",
           "spellchecking_type" : "no",
           "class" : "TextField",
           "uuid" : "9C35D7EB-DCA1-41E0-BAFE-75E5B2402C38",
           "alignment" : "center",
           "autocorrection_type" : "no",
-          "name" : "cipher_textfield",
+          "font_size" : 17,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -77,10 +83,10 @@
           "uuid" : "9C35D7EB-DCA1-41E0-BAFE-75E5B2402C38",
           "alignment" : "center",
           "autocorrection_type" : "no",
-          "font_size" : 17,
-          "name" : "plain_textfield"
+          "name" : "plain_textfield",
+          "font_size" : 17
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
@@ -89,13 +95,13 @@
         "frame" : "{{119, 231}, {59, 44}}",
         "class" : "Label",
         "attributes" : {
-          "font_size" : 18,
+          "name" : "label1",
           "frame" : "{{245, 224}, {150, 32}}",
           "uuid" : "E384B35D-9C8D-41D5-B03C-0613027E061C",
           "class" : "Label",
           "alignment" : "center",
           "text" : "==>",
-          "name" : "label1",
+          "font_size" : 18,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -127,15 +133,18 @@
         "frame" : "{{6, 283}, {628, 80}}",
         "class" : "Label",
         "attributes" : {
-          "flex" : "W",
-          "name" : "subs_label",
-          "frame" : "{{245, 224}, {150, 32}}",
           "uuid" : "30C23CCF-65C5-444F-9297-DC1DE1013AC9",
-          "class" : "Label",
+          "font_size" : 14,
+          "corner_radius" : 0,
+          "frame" : "{{245, 224}, {150, 32}}",
+          "border_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "border_width" : 1,
           "alignment" : "left",
           "text" : "",
-          "font_size" : 14,
-          "font_name" : "<System>"
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "subs_label",
+          "flex" : "W"
         },
         "selected" : false
       },
@@ -146,15 +155,18 @@
         "frame" : "{{6, 371}, {628, 80}}",
         "class" : "Label",
         "attributes" : {
-          "flex" : "W",
-          "font_name" : "<System>",
-          "frame" : "{{245, 224}, {150, 32}}",
           "uuid" : "30C23CCF-65C5-444F-9297-DC1DE1013AC9",
-          "class" : "Label",
+          "font_size" : 14,
+          "corner_radius" : 0,
+          "frame" : "{{245, 224}, {150, 32}}",
+          "border_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "border_width" : 1,
           "alignment" : "left",
           "text" : "",
+          "font_name" : "<System>",
+          "class" : "Label",
           "name" : "freq_label",
-          "font_size" : 14
+          "flex" : "W"
         },
         "selected" : false
       },
@@ -165,15 +177,18 @@
         "frame" : "{{6, 143}, {628, 80}}",
         "class" : "Label",
         "attributes" : {
-          "flex" : "W",
-          "name" : "plaintext_label",
-          "frame" : "{{245, 224}, {150, 32}}",
           "uuid" : "30C23CCF-65C5-444F-9297-DC1DE1013AC9",
-          "class" : "Label",
+          "font_size" : 14,
+          "corner_radius" : 0,
+          "frame" : "{{245, 224}, {150, 32}}",
+          "border_color" : "RGBA(0.362319,0.043478,1.000000,1.000000)",
+          "border_width" : 1,
           "alignment" : "left",
           "text" : "",
-          "font_size" : 14,
-          "font_name" : "Menlo-Regular"
+          "font_name" : "Menlo-Regular",
+          "class" : "Label",
+          "name" : "plaintext_label",
+          "flex" : "W"
         },
         "selected" : false
       }
@@ -181,11 +196,11 @@
     "frame" : "{{0, 0}, {640, 500}}",
     "class" : "View",
     "attributes" : {
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "enabled" : true,
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "Cipher Solver",
       "flex" : ""
     },
     "selected" : false

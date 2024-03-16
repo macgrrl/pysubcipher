@@ -12,11 +12,11 @@ def cipher_text_entered(sender):
 
     #print("Cipher text entered: ", sender.text)
     c = SubCipher(sender.text)
-    sender.text = c.ciphertext
-    ciphertext_label.text = c.ciphertext
-    plaintext_label.text = c.plaintext
-    subs_label.text = repr(c.sub)
-    freq_label.text = repr(c.sort_freq)
+    sender.text = c.get_ciphertext()
+    ciphertext_label.text = c.get_ciphertext()
+    plaintext_label.text = c.get_plaintext()
+    subs_label.text = repr(c.get_sub())
+    freq_label.text = repr(c.get_sort_freq())
     #c.print_text()
 
 def substitute_button_pressed(sender):
@@ -28,8 +28,8 @@ def substitute_button_pressed(sender):
     #print("Substituting...", cipher_textfield.text, "->", plain_textfield.text)
     c.substitute(cipher_textfield.text.upper(), plain_textfield.text.upper())
     #c.print_text()
-    plaintext_label.text = c.plaintext
-    subs_label.text = repr(c.sub)
+    plaintext_label.text = c.get_plaintext()
+    subs_label.text = repr(c.get_sub())
     cipher_textfield.begin_editing()
 
 
